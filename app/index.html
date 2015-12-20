@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <form class="col-lg-offset-3  col-lg-6">
+            <div class="form-group has-feedback">
+                <label><i class="fa fa-user"></i>Login</label>
+                <input type="text" class="form-control" id="login" placeholder="Login">
+                <p>The string must contain from 3 to 15 characters</p>
+            </div>
+            <div class="form-group has-feedback">
+                <label for="email1"><i class="fa fa-envelope"></i>Email</label>
+                <input type="email" class="form-control" id="email1" placeholder="Email">
+
+            </div>
+            <div class="form-group has-feedback">
+                <label for="password1"><i class="fa fa-key"></i>Password</label>
+                <input type="password" class="form-control" id="password1" placeholder="Password">
+                <p>The string must contain 1 lowercase 1 uppercase 1 numeric must be 8 or longer</p>
+            </div>
+            <div class="form-group has-feedback">
+                <label for="password2"><i class="fa fa-key"></i>Repeat password</label>
+                <input type="password" class="form-control" id="password2" placeholder="Password">
+            </div>
+            <div class="form-group has-feedback form_tell">
+                <label for="tell"><i class="fa fa-mobile"></i>Phone</label>
+                <input type="tell" class="form-control pull-right" id="tell" placeholder="Number">
+                <select class="form-control">
+                    <option>+38(093)</option>
+                    <option>+38(060)</option>
+                    <option>+38(066)</option>
+                    <option>+38(097)</option>
+                    <option>+38(073)</option>
+                </select>
+                <p>input format 555-55-55</p>
+            </div>
+            <button type="submit" class="btn btn-default pull-right" id="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+<script src="js/registration-compiled.js"></script>
+</body>
+</html>
